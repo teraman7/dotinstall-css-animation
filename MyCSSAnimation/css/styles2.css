@@ -1,0 +1,22 @@
+body {
+  padding: 100px;
+}
+
+.loading {
+  width: 40px;
+  height: 40px;
+  border: gray 8px solid;
+  border-radius: 50%;
+  animation: spin 2s infinite linear;
+  /* animation-  */
+}
+
+@keyframes spin {
+  form {
+    transform: none;
+  }
+  to {
+    /* transform: rotate(360deg); */
+    border-color: black;
+  }
+}
